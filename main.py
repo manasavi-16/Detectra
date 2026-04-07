@@ -9,7 +9,7 @@ app = FastAPI()
 
 # 1. Load Model from Hugging Face
 # REPLACE 'Manasavi-7953/detectra-distilbert' with your actual Hugging Face path
-model_path = "your-username/detectra-distilbert" 
+model_path = "Manasavi-7953/detectra-distilbert" 
 
 try:
     tokenizer = DistilBertTokenizerFast.from_pretrained(model_path)
